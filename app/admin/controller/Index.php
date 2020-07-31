@@ -7,6 +7,11 @@ class Index extends AdminBaseController
 {
     public function index()
     {
-        var_dump('admin.index');die;
+        return view();
+    }
+
+    public function dashboard()
+    {
+        return view();
     }
 }
