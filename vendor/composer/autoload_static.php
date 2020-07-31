@@ -23,6 +23,10 @@ class ComposerStaticInitaac24b928d6ba6f5537f1a39f409d07f
             'think\\app\\' => 10,
             'think\\' => 6,
         ),
+        'h' => 
+        array (
+            'hotadmin\\' => 9,
+        ),
         'a' => 
         array (
             'app\\' => 4,
@@ -71,6 +75,10 @@ class ComposerStaticInitaac24b928d6ba6f5537f1a39f409d07f
             1 => __DIR__ . '/..' . '/topthink/think-helper/src',
             2 => __DIR__ . '/..' . '/topthink/think-orm/src',
             3 => __DIR__ . '/..' . '/topthink/think-template/src',
+        ),
+        'hotadmin\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/hotadmin',
         ),
         'app\\' => 
         array (

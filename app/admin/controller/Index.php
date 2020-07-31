@@ -1,9 +1,9 @@
 <?php
 namespace app\admin\controller;
 
-use app\BaseController;
+use hotadmin\base\AdminBaseController;
 
-class Index extends BaseController
+class Index extends AdminBaseController
 {
     public function index()
     {
